@@ -220,7 +220,7 @@ header {
   h2 {
     text-align: center;
     font-size: 2.5rem;
-    color: #c49a6c;
+    color: #b35400;
     margin-bottom: 3rem;
   }
 
@@ -242,10 +242,11 @@ header {
       .menu-items {
         .menu-item {
           background: #0b0b0b;
+          align-content: center;
           padding: 1.5rem;
           margin-bottom: 1rem;
           border-radius: 10px;
-          border-left: 4px solid #b35400;
+          /* border-left: 4px solid #b35400; */
           transition: all 0.3s ease;
 
           &:hover {
@@ -334,7 +335,7 @@ header {
           margin: 0;
           font-size: 1.2rem;
           font-weight: 600;
-          color: #c49a6c;
+          color: #ff7904;
         }
       }
     }
