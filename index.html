@@ -9,12 +9,20 @@
       href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="./src/icons/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./src/style/style.css" />
     <title>Shelbys Bar</title>
   </head>
   <body>
     <header>
-      <h1>SHELBY'S BAR</h1>
+      <section class="inicio">
+        <h1>SHELBY'S BAR</h1>
+        <img
+          src="./src/icons/logo.svg"
+          alt="Logo de Shelby's Bar"
+          class="logo"
+        />
+      </section>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -24,11 +32,11 @@
           <li><a href="#contact">Contact</a></li>
           <li><a href="#reservaciones">Reservaciones</a></li>
         </ul>
-        <div class="hamburger">
+        <!-- <div class="hamburger">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </div> -->
       </nav>
     </header>
     <!-- HOME SECTION -->
@@ -128,55 +136,37 @@
         <h2>Galería</h2>
         <div class="gallery-grid">
           <div class="gallery-item">
-            <img
-              src="./src/images/Imagen4.avif"
-              alt="Ambiente nocturno"
-            />
+            <img src="./src/images/Imagen4.avif" alt="Ambiente nocturno" />
             <div class="gallery-overlay">
               <p>Ambiente nocturno</p>
             </div>
           </div>
           <div class="gallery-item">
-            <img
-              src="./src/images/Imagen5.avif"
-              alt="Música en vivo"
-            />
+            <img src="./src/images/Imagen5.avif" alt="Música en vivo" />
             <div class="gallery-overlay">
               <p>Música en vivo</p>
             </div>
           </div>
           <div class="gallery-item">
-            <img
-              src="./src/images/Imagen6.avif"
-              alt="Cócteles artesanales"
-            />
+            <img src="./src/images/Imagen6.avif" alt="Cócteles artesanales" />
             <div class="gallery-overlay">
               <p>Cócteles artesanales</p>
             </div>
           </div>
           <div class="gallery-item">
-            <img
-              src="./src/images/Imagen7.avif"
-              alt="Eventos especiales"
-            />
+            <img src="./src/images/Imagen7.avif" alt="Eventos especiales" />
             <div class="gallery-overlay">
               <p>Eventos especiales</p>
             </div>
           </div>
           <div class="gallery-item">
-            <img
-              src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=400&h=300&fit=crop"
-              alt="Gastronomía"
-            />
+            <img src="./src/images/Imagen8.avif" alt="Gastronomía" />
             <div class="gallery-overlay">
               <p>Gastronomía</p>
             </div>
           </div>
           <div class="gallery-item">
-            <img
-              src="https://images.unsplash.com/photo-1544148103-0773bf10d330?w=400&h=300&fit=crop"
-              alt="Bar completo"
-            />
+            <img src="./src/images/Imagen10.avif" alt="Bar completo" />
             <div class="gallery-overlay">
               <p>Nuestra barra</p>
             </div>
@@ -346,7 +336,7 @@
       </div>
     </footer>
 
-    <script>
+    <!-- <script>
       // Mobile Navigation Toggle
       const hamburger = document.querySelector(".hamburger");
       const navUl = document.querySelector("nav ul");
@@ -390,6 +380,6 @@
           header.style.backdropFilter = "none";
         }
       });
-    </script>
+    </script> -->
   </body>
 </html>
